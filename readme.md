@@ -1,25 +1,26 @@
-# Exercice d'intégration : Collection de Cards
+# Gestion des Produits d'un Magasin en Ligne
 
-L'idée va être de reproduire cette collection de cards.
+Vous travaillez sur le site web d'un **magasin en ligne** qui liste divers produits. Chaque produit est noté par les utilisateurs, et cette **note influence l'ordre d'affichage** des produits sur la page. Pour faciliter la gestion de ces produits, nous allons créer deux fonctions utiles : une pour trier les produits par note et une pour filtrer les produits par catégorie.
 
-## Détails des Cards
-Chaque card possède :
-- une image
-- un titre
-- une description
-- un bouton d'action
+## Structure des Objets Produit
 
-## Critères à respecter
-Votre réalisation devra respecter les critères suivants :
-- **Adaptabilité** : Les cards doivent être responsives et s'adapter à différentes tailles d'écran (voir les photos).
-- **Accessibilité** : Veillez à utiliser les bonnes pratiques d'accessibilité (balises sémantiques, alt pour les images, etc.).
-- **Référencement** : Le code doit être optimisé pour le SEO.
+Chaque produit est représenté par un objet contenant les informations suivantes :
 
-## Animations
-Tentez d'ajouter les animations prévues sur la vidéo, en utilisant uniquement du **CSS** (cf transition).
+- **id** : Identifiant unique du produit
+- **name** : Nom du produit
+- **category** : Catégorie à laquelle le produit appartient
+- **price** : Prix du produit
+- **rating** : Note moyenne du produit
 
-## Images
-Pour les images, vous pouvez utiliser la source suivante :  
-`https://via.placeholder.com/150`
+### Exemple de Tableau de Produits
 
-## Bon courage ! 🎨
+Voici un tableau exemple contenant plusieurs produits :
+
+```javascript
+const products = [
+  { id: 1, name: "Smartphone XY", category: "Électronique", price: 799.99, rating: 4.6 },
+  { id: 2, name: "Basketball Pro Ball", category: "Sport", price: 29.99, rating: 4.2 },
+  { id: 3, name: "Casque Audio Sans Fil", category: "Électronique", price: 199.99, rating: 4.8 },
+  { id: 4, name: "Série de Romans Fantasy", category: "Livres", price: 59.99, rating: 4.5 },
+  { id: 5, name: "Montre Connectée", category: "Électronique", price: 249.99, rating: 4.4 },
+];
