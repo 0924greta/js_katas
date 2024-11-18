@@ -1,25 +1,14 @@
-# Exercice d'intégration : Collection de Cards
+# Acronymes
 
-L'idée va être de reproduire cette collection de cards.
+Le but est de **convertir un sigle non abbrégé en sa version abbrégée** (majuscules séparées par des points). Exemple : `‘Wild Code School’` => `‘W.C.S.’`
 
-## Détails des Cards
-Chaque card possède :
-- une image
-- un titre
-- une description
-- un bouton d'action
+- Dans un second temps, ajouter un 1er cas particulier `Société Nationale du Chemin de Fer Français` doit donner `‘S.N.C.F.’` et non ‘S.N.D.C.D.F.F’ Tandis que `‘Electricité de France’` doit bien donner `‘E.D.F.’`
 
-## Critères à respecter
-Votre réalisation devra respecter les critères suivants :
-- **Adaptabilité** : Les cards doivent être responsives et s'adapter à différentes tailles d'écran (voir les photos).
-- **Accessibilité** : Veillez à utiliser les bonnes pratiques d'accessibilité (balises sémantiques, alt pour les images, etc.).
-- **Référencement** : Le code doit être optimisé pour le SEO.
+- Puis un autre cas particulier `‘World Wide Web Consortium’` doit donner `W.3.C.`
 
-## Animations
-Tentez d'ajouter les animations prévues sur la vidéo, en utilisant uniquement du **CSS** (cf transition).
+- Les autres sigles fonctionnent bien entendu toujours comme attendus.
 
-## Images
-Pour les images, vous pouvez utiliser la source suivante :  
-`https://via.placeholder.com/150`
+## Données
+Regarde les tests pour comprendre ce qu'il faut tester 🤙
 
 ## Bon courage ! 🎨
